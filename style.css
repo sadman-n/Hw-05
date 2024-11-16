@@ -1,0 +1,83 @@
+.parent{
+    width: 223px;
+    /* border: 1px solid; */
+    box-shadow: 5px 3px 40px #cccccc77;
+    position: relative;
+    /* font-family: sans-serif; */
+    /* font-family: Roboto, serif; */
+    /* font-family: Montserrat; */
+    margin: auto;
+   
+
+}
+.parent img{
+width: 100%;
+
+
+}
+.parent .top span{
+    background-color: #6E2594;
+    color: #fff;
+    color: #fff;
+    font-size: 12px;
+    padding: 3px 10px;
+    border-radius: 0 25px 25px 0;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+}
+.contains{
+    padding: 20px;
+}
+.contains h4{
+    font-weight: 600;
+    font-size: 14px;
+    /* margin: 10px; */
+}
+.contains h4:hover{
+    color:#ef4a23 ;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.contains ul{
+    padding-left: 15px ;
+}
+ul li{
+    font-size: 13px;
+    color:#666 ;
+    /* line-height: 16px; */
+    margin: 8px;
+}
+.price{
+    text-align: center;
+    margin: 15px 0;
+}
+.price span{
+    color: #d51e0b;
+
+}
+.old span{
+    font-size: 12px;
+    font-weight: 600;
+    color: #736b6b;
+    text-decoration: line-through;
+}
+
+.discount a{
+
+    width: 100%;
+    display: block;
+    background-color: rgba(55, 73, 187, .05);
+    padding: 5px 10px;
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.discount a:hover  {
+    background-color: #374988;
+    color: #fff;
+
+}
